@@ -33,7 +33,13 @@ let M = [
     [0, 0, 0, 0]
 ];
 
+for (let i = 0; i < M.length; i++) {
+    console.log("Nombre de 1 dans la ligne " + i + " : " + NombreUn(M[i]));
+}
+
 triLignes(M);
+
+console.log("Tableau apres triLignes :");
 
 console.log(M);
 
